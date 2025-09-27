@@ -98,7 +98,7 @@ abc -liberty /path/to/your/sky130_fd_sc_hd__tt_025C_1v80.libabc -liberty /path/t
 <img width="1210" height="773" alt="Screenshot from 2025-09-27 18-12-20" src="https://github.com/user-attachments/assets/328a7c54-e72c-4e24-9a1a-2d205bf99f9e" />
 
 
-###Summary
+Summary
 
 Learned about simulators, designs, and testbenches.
 
