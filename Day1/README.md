@@ -21,6 +21,7 @@
 git clone [https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git](https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git)
 cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 ```
+
 <img width="1280" height="800" alt="Screenshot from 2025-09-27 16-26-32" src="https://github.com/user-attachments/assets/843c0510-764d-4fa7-9bf5-adece86ab45a" />
 
 ```
@@ -37,6 +38,7 @@ iverilog good_mux.v tb_good_mux.v
 gtkwave tb_good_mux.vcd
 ```
 <img width="1280" height="800" alt="Screenshot from 2025-09-27 16-46-36" src="https://github.com/user-attachments/assets/4dfe708f-27e1-4dfe-a7e1-8e0561df25d8" />
+
 
 <img width="1280" height="800" alt="Screenshot from 2025-09-27 16-28-43" src="https://github.com/user-attachments/assets/3cba7cb3-ab38-4063-bf0a-52fbc9be1c29" />
 
@@ -93,8 +95,11 @@ read_verilog ./good_mux.v
 ```
 <img width="1210" height="773" alt="Screenshot from 2025-09-27 18-59-44" src="https://github.com/user-attachments/assets/4ac8c76b-cf6f-45c3-bb8d-08b3af4183a0" />
 ```
+
 abc -liberty /path/to/your/sky130_fd_sc_hd__tt_025C_1v80.libabc -liberty /path/to/your/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
+
+
 <img width="1210" height="773" alt="Screenshot from 2025-09-27 18-12-20" src="https://github.com/user-attachments/assets/328a7c54-e72c-4e24-9a1a-2d205bf99f9e" />
 
 
