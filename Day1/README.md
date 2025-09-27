@@ -119,3 +119,7 @@ Analyzed the 2-to-1 mux code.
 Explored Yosys and learned why gate libraries have various flavors.
 
 
+<img width="1210" height="773" alt="image" src="https://github.com/user-attachments/assets/a128629b-fe56-4159-ae5e-651f0f4a56be" />
+
+
+
