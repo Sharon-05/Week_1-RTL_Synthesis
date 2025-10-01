@@ -22,7 +22,7 @@ endmodule
 <img width="1280" height="800" alt="Screenshot from 2025-10-01 09-43-20" src="https://github.com/user-attachments/assets/4047a910-998d-4374-9850-69b629fe99df" />
 
 
-###Lab 3
+### Lab 3
 ```
 module opt_check3 (input a , input b , output y);
 	assign y = a?1:b;
@@ -32,7 +32,7 @@ endmodule
 <img width="1280" height="800" alt="Screenshot from 2025-10-01 09-44-07" src="https://github.com/user-attachments/assets/067c27f2-ad0e-472f-954f-3e2ab8b0a2c4" />
 
 
-###Lab 4
+### Lab 4
 ```
 module opt_check4 (input a , input b , input c , output y);
  assign y = a?(b?(a & c ):c):(!c);
@@ -69,7 +69,7 @@ endmodule
 <img width="1280" height="800" alt="Screenshot from 2025-10-01 09-58-40" src="https://github.com/user-attachments/assets/51be8d7e-c36f-4e06-9742-1e7ed042ea4d" />
 
 
-###Summary
+### Summary
 
 Focus: Optimization techniques for combinational and sequential circuits in digital design, with practical Verilog labs.
 
