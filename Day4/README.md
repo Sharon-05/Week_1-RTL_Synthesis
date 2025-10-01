@@ -73,7 +73,7 @@ Synthesize corrected module and check results.
 Output:
 
 
-<img width="957" height="611" alt="image" src="https://github.com/user-attachments/assets/17770de1-3079-431f-b97f-e4ea2ff61cb1" />
+<img width="1275" height="796" alt="image" src="https://github.com/user-attachments/assets/84a6df08-3041-4d2e-82b6-50dad5ce4bb5" />
 
 
 ### Summary
