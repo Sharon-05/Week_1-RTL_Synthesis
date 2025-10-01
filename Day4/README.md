@@ -36,17 +36,53 @@ Synthesize MUX with Yosys standard flow.
 ### Lab 4: Bad MUX Example
 ```
 module bad_mux (input i0, input i1, input sel, output reg y);
-  always @ (sel) begin
-    if (sel)
-      y <= i1;
-    else 
-      y <= i0;
-  end
-endmodule
+ always @(*) begin
+  if (sel)
+    y = i1;
+  else
+    y = i0;
+end
+
 ```
 <img width="1278" height="793" alt="image" src="https://github.com/user-attachments/assets/dc6ba5fe-c320-471e-a72c-55b455f7564e" />
 
-<img width="957" height="611" alt="image" src="https://github.com/user-attachments/assets/ae2fde86-472c-4ee4-845e-a6f53e649622" />
+
+<img width="1272" height="799" alt="image" src="https://github.com/user-attachments/assets/b22f0528-6722-43b7-af5f-18c389edcbfb" />
 
 
+### Lab 6: Blocking Assignment Caveat
+```
+module blocking_caveat (input a, input b, input c, output reg d);
+  reg x;
+always @(*) begin
+  x = a | b;
+  d = x & c;
+end
+```
+
+Output:
+<img width="1280" height="799" alt="image" src="https://github.com/user-attachments/assets/ea99e8a7-7298-4153-b050-69020767688c" />
+
+
+
+
+### Lab 7: Synthesis of Blocking Caveat
+
+Synthesize corrected module and check results.
+
+Output:
+
+
+<img width="957" height="611" alt="image" src="https://github.com/user-attachments/assets/17770de1-3079-431f-b97f-e4ea2ff61cb1" />
+
+
+### Summary
+
+GLS: Validates netlist functionality, timing, and testability.
+
+Mismatch: Caused by bad RTL practices → avoid non-synthesizable constructs.
+
+Blocking vs. Non-Blocking: Use = for combinational, <= for sequential logic.
+
+Labs: Practiced good coding style and checked GLS outputs.
 
